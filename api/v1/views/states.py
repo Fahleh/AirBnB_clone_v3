@@ -17,7 +17,7 @@ def view_all_states():
 
 @app_views.route('/states/<state_id>', methods=['GET'], strict_slashes=False)
 def view_one_state(state_id=None):
-    """i
+    """
     Retrieves a state by a given id
     """
     if state_id is None:
